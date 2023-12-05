@@ -166,7 +166,7 @@ echo $modalUpdt;
                 <h5 class="modal-title" id="exampleModalLabel">Nouveau hôtel</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="insert.php" method="POST">
+            <form action="crudHOTEL/insert.php" method="POST">
                 <div class="modal-body">
                     <!-- name -->
                     <div>

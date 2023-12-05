@@ -20,7 +20,7 @@ if (isset($_POST['updatebtn'])) {
     if (mysqli_stmt_execute($prepareHotel) && mysqli_stmt_execute($prepareLocal)) {
         header("Location: ../propriet.php");
     } else {
-        echo "error " . mysqli_error($conn);
+        echo "error" . mysqli_error($conn);
     }
 }
 ?>
